@@ -501,7 +501,7 @@ footer {
     color: #fff;
     text-align: center;
 
-    padding-top: 101%;
+    padding-top: 40%;
   }
   .cta {
     height: 250px;
@@ -566,6 +566,10 @@ footer {
 /* ---- BS -----  */
 
 /* -------------------- TRAVEL PAGE --------------------  */
+
+.footer-icons.travel-footer {
+  margin-top: 30px;
+}
 .travel-header {
   background-color: #fff;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
@@ -841,6 +845,9 @@ footer {
 }
 
 @media (max-width: 600px) {
+  .item__img img {
+    border-radius: 0;
+  }
   .header.travel-header {
     padding: 0 5%;
   }
@@ -1250,6 +1257,9 @@ h1 {
     column-gap: 10px;
     row-gap: 5px;
     margin: 20px 0px;
+  }
+  .photos img {
+    border-radius: 0;
   }
 
   .img-container-1 {
